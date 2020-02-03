@@ -99,15 +99,15 @@ server <- function(input, output, session) {
             scale_fill_continuous(
                 low = "navy", high = "orange", name = "Total"
             ) +
-            labs(title = paste(select_title, "in",  state_title, cod_title, "(1999 - 2017)"),
-                 subtitle = "All sub-national mortality and population figures less than 10 persons are suppressed (shown in gray)",
+            labs(#title = paste(select_title, "in",  state_title, cod_title, "(1999 - 2017)"),
+                 #subtitle = "All sub-national mortality and population figures less than 10 persons are suppressed (shown in gray)",
                  caption = "CDC WONDER Underlying Cause of Death") +
             theme(
                 text = element_text(color = "white"),
                 legend.background = element_rect(fill = "black"),
                 plot.background = element_rect(fill = "black"),
             )
-    }, width = "auto", bg = "black")
+    }, width = 720, height = 720, units = "px", bg = "black")
     
     output[["contents"]] <- renderTable({
         

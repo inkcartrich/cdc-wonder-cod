@@ -37,7 +37,8 @@ p2 <- usmap::plot_usmap(regions = "counties", data = by_county, values = "tot_de
   theme(
     text = element_text(color = "white"),
     legend.background = element_rect(fill = "black"),
-    plot.background = element_rect(fill = "black", color = NA)
+    plot.background = element_rect(fill = "black", color = NA),
+    aspect.ratio = 1
   )
 
 ggsave("il_plot.png", p2, width = 10, height = 10)

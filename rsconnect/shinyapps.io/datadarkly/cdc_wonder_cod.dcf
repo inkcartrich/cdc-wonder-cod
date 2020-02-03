@@ -1,0 +1,10 @@
+name: cdc_wonder_cod
+title:
+username:
+account: datadarkly
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1749677
+bundleId: 2770351
+url: https://datadarkly.shinyapps.io/cdc_wonder_cod/
+when: 1580692800.65328
