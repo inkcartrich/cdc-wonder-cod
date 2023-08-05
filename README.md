@@ -1,1 +1,1 @@
-# cdc_wonder_cod
+# cdc-wonder-cod
