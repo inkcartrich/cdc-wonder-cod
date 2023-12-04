@@ -107,7 +107,7 @@ server <- function(input, output, session) {
                 legend.background = element_rect(fill = "black"),
                 plot.background = element_rect(fill = "black"),
             )
-    }, width = 100%, height = 100%, bg = "black")
+    }, width = "auto", bg = "black")
     
     output[["contents"]] <- renderTable({
         
